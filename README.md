@@ -45,4 +45,5 @@ You can gather a large list of employee names quickly and easily with this metho
 ## Step 6
 When you are done, unload the Extension so you don't burden Burp with inspecting all responses.
 
+Note: If you aren't getting a name written to the output file as you expect, it could be that the name was already ouput by the extension since it was loaded. To reset everything unload (uncheck) the extension and then reload it.
 
