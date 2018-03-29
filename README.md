@@ -1,4 +1,4 @@
-# GatherContacts
+# Gather Contacts
 A Burp Suite Extension to pull Employee Names from Google and Bing LinkedIn Search Results.
 
 As part of reconnaissance when performing a penetration test, it is often useful to gather employee names that can then be massaged into email addresses and usernames. The usernames may come in handy for performing a [password spraying attack](http://www.blackhillsinfosec.com/?p=4694) for example. One easy way to gather employee names is to use the following Burp Suite Pro extension as described below.
