@@ -54,3 +54,11 @@ Note: If you aren't getting a name written to the output file as you expect, it 
 For those of you not familiar with Excel formula's, here are some formulas for creating usernames and email addresses from the output above. (Assume column B contains the first name and column C contains the last name)
 
 ![Data in Excel](https://github.com/clr2of8/GatherContacts/raw/master/images/formulas.png)
+
+## Pro Tips
+
+Randomize the order of your username list before spraying to avoid be detected in some cases. You can add a column of random numbers to your spreadsheet using the **=RAND()** formula, then sort by this column.
+
+Randomize your source IP using ProxyCannon from [#_shellIntel](https://www.shellntel.com/blog/2016/1/14/update-to-proxycannon) as described [here](https://www.blackhillsinfosec.com/using-burp-proxycannon/).
+
+
