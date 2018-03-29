@@ -57,7 +57,7 @@ For those of you not familiar with Excel formula's, here are some formulas for c
 
 ## Pro Tips
 
-Randomize the order of your username list before spraying to avoid be detected in some cases. You can add a column of random numbers to your spreadsheet using the **=RAND()** formula, then sort by this column.
+Randomize the order of your username list before spraying to avoid being detected in some cases. You can add a column of random numbers to your spreadsheet using the **=RAND()** formula, then sort by this column.
 
 Randomize your source IP using ProxyCannon from [#_shellIntel](https://www.shellntel.com/blog/2016/1/14/update-to-proxycannon) as described [here](https://www.blackhillsinfosec.com/using-burp-proxycannon/).
 
