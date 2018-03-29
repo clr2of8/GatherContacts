@@ -26,7 +26,7 @@ Configure the Extension to save output to a file. This is where your usernames w
 ![Save Output](https://github.com/clr2of8/GatherContacts/raw/master/images/outputFile.png)
 
 ## Step 4
-Configure your browser to use Burp as a proxy as you normally would. From the browser, do a Google search of the following form (don't forget the "/in" on the end of "linkedin.com":
+Configure your browser to use Burp as a proxy as you normally would. From the browser, do a Google or Bing search of the following form (don't forget the "/in" on the end of "linkedin.com":
 
 site:linkedin.com/in "Company Name"
 
