@@ -41,6 +41,7 @@ Each of the employee names in the search results will be written to the output f
 You can gather a large list of employee names quickly and easily with this method. Try importing the list into Microsoft Excel where you can use formulas to turn employee names into the appropriate username format such as first initial followed by last name.
 
 ![Import to Excel](https://github.com/clr2of8/GatherContacts/raw/master/images/excel.png)
+
 ![Data in Excel](https://github.com/clr2of8/GatherContacts/raw/master/images/exampleOutput.png)
 
 ## Step 6
@@ -48,3 +49,8 @@ When you are done, unload the Extension so you don't burden Burp with inspecting
 
 Note: If you aren't getting a name written to the output file as you expect, it could be that the name was already ouput by the extension since it was loaded. To reset everything, unload (uncheck) the extension and then reload it.
 
+## Extra Info
+
+For those of you not familiar with Excel formula's, here are some formulas for creating usernames and email addresses from the output above. (Assume column B contains the first name and column C contains the last name)
+
+![Data in Excel](https://github.com/clr2of8/GatherContacts/raw/master/images/formulas.png)
