@@ -7,18 +7,19 @@ You may be able to discover the username format by analyzing the metadata of doc
 To collect employee names with Burp, you'll need to do the following steps.
 
 ## Step 1
-Add the "Gather Contacts" extension from the **Extender-->Extensions**  tab as shown below:
-
-![Gather Contacts Extension](https://github.com/clr2of8/GatherContacts/raw/master/images/AddExtension.png)
-
-Click **Add-->SelectFile ...** and browse to the "GatherContacts.jar" file that you download from this repository.
-
-## Step 2
 This extension uses the **jsoup** Java library. You will need to [download jsoup](https://jsoup.org/download) and tell Burp where to find it as shown below.
 
 ![Jsoup Dependency](https://github.com/clr2of8/GatherContacts/raw/master/images/jsoup.png)
 
 Select the folder that contains the jsoup jar file, in this case I downloaded jsoup into the **C:\Users\Public\Downloads\lib** folder.
+
+## Step 2
+
+Add the "Gather Contacts" extension from the **Extender-->Extensions**  tab as shown below:
+
+![Gather Contacts Extension](https://github.com/clr2of8/GatherContacts/raw/master/images/AddExtension.png)
+
+Click **Add-->SelectFile ...** and browse to the "GatherContacts.jar" file that you download from this repository.
 
 ## Step 3
 Configure the Extension to save output to a file. This is where your usernames will be written. You can optionally select the "Show in UI" option, but the output window truncates items when the list gets too long.
